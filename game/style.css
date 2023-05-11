@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar1 {
+    display: flex;
+    background-color: #000;    
+}
+
+.navbar2 {
+    display: flex;
+    background-color: #fff;
+    height: 45px;    
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    /* border: 1px solid red; */
+}
+
+ul li {
+    margin: 0 4rem;
+}
+
+.logo img {
+    width: 51px;
+    height: 30px;
+}
+
+.logo2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;       
+}
+
+.menu2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.lp a {
+    color: #000;
+    text-decoration: none;    
+    background-color: #FFAE00;
+    padding: 0.3rem 0.5rem;
+    border-radius: 10%;    
+}
+
+.bannerbox {
+    height: 95px;
+}
+
+.gamecard {
+    border: 1px solid red;
+}
+
+

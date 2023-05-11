@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar1 {
+    display: flex;
+    background-color: #000;    
+}
+
+.navbar2 {
+    display: flex;
+    background-color: #fff;
+    height: 45px;    
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    /* border: 1px solid red; */
+}
+
+ul li {
+    margin: 0 4rem;
+}
+
+.logo img {
+    width: 51px;
+    height: 30px;
+}
+
+.logo2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;       
+}
+
+.menu2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.lp a {
+    color: #000;
+    text-decoration: none;    
+    background-color: #FFAE00;
+    padding: 0.3rem 0.5rem;
+    border-radius: 10%;    
+}
+
+.bannerbox {
+    height: 95px;
+}
+
+header {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://cdn.nba.com/manage/2023/02/nba_lebron_packespage_desktop-1.jpg);
+    /* border: 1px solid red; */
+}
+
+.header-info {
+    text-align: center;
+    height: 200px;
+    width: 650px;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+.header-info h1 {
+    font-size: 54px;
+}
+
+.header-info a {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;    
+    
+}
+
+.team-header {
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.team-items {
+    padding: 0.5rem;
+    background: #fff;
+    color: #000;    
+}
+
+.slideshow-container{
+    max-width: 800px;
+    position: relative;
+    margin: auto;    
+}
+
+.mySlides{
+    display: none;
+    background-color: #F1EBE0;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color:  white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    /* border: 1px solid red; */
+    color: #000;
+    font-size: 24px;
+    padding: 8px 12px;
+    /* position: absolute; */
+    /* bottom: 8px; */
+    width: 100%;
+    /* text-align: center; */
+  }
+
+.text1 {
+    color: #54524F;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+.active, .dot:hover {
+    background-color: #717171;
+  }
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+.header-slides {
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;    
+}
+
+.compare-header {
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.compare-info {
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: #ECECEC;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    padding: 40px;
+    font-size: 16px;
+    max-width: 700px;    
+    margin: auto;             
+}
+
+.td1 a {
+    color: #000;
+    background-color: #FFAE00;
+    padding: 0.3rem 0.5rem;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.table-header {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+.blank1 {
+    padding: 40px;
+}
+
+footer {
+    background: #000;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;    
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
